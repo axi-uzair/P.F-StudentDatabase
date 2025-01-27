@@ -220,7 +220,7 @@ int main() {
     details[6] = {7, "Eve Evans", 21, "Biology", 93.7};
     details[7] = {8, "Frank Wilson", 20, "Math", 74.6};
 
-    string courseName; // Declare the variable here so it's available in all cases
+    string courseName;
     float gradeStart;
     int minAge, maxAge;
 
@@ -278,7 +278,7 @@ int main() {
                 break;
             case 9:
                 cout << "Enter course name: ";
-                getline(cin, courseName);  // Use the variable here
+                getline(cin, courseName);
                 findStudentsInCourse(details, studentsNum, courseName);
                 break;
             case 10:
